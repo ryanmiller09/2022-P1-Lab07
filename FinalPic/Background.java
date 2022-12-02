@@ -12,6 +12,12 @@ public class Background {
         g.setColor(Color.black);
         g.fillRect(0,500,1000,500);
     }
+
+    public static void drawLines(Graphics g){
+        g.setColor(Color.yellow);
+        g.fillRect(0,700,1000,25);
+        g.fillRect(0,750,1000,25);
+    }
 }
 
 
