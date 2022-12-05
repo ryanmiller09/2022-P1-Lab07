@@ -10,6 +10,11 @@ public class Road extends Applet{
         Background.drawSky(g);
         Background.drawStreet(g);
         Background.drawLines(g);
+        Background.drawSun(g);
+
+        Bus.drawFrame(g);
+        Bus.drawWheels(g);
+        Bus.drawWindows(g);
 
 
     }

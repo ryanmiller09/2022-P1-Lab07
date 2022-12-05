@@ -18,6 +18,10 @@ public class Background {
         g.fillRect(0,700,1000,25);
         g.fillRect(0,750,1000,25);
     }
+    public static void drawSun(Graphics g){
+        g.setColor(Color.yellow);
+        g.fillOval(875,25,100,100);
+    }
 }
 
 
