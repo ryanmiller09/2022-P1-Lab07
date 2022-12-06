@@ -7,6 +7,8 @@ public class Bus {
     public static void drawFrame(Graphics g){
         g.setColor(Color.yellow);
         g.fillRect(500,450,450,225);
+        g.fillRect(400,550,100,125);
+
     }
     public static void drawWheels(Graphics g){
         g.setColor(Color.BLACK);

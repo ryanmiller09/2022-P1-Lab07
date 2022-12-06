@@ -16,6 +16,10 @@ public class Road extends Applet{
         Bus.drawWheels(g);
         Bus.drawWindows(g);
 
+        Car.drawBody(g);
+        Car.drawWheels(g);
+        Car.drawWindows(g);
+
 
     }
 }
